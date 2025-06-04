@@ -1,3 +1,4 @@
+![Titanic Ticket](https://github.com/Sharmineroz/Predictive-survival-analysis-for-Titanic-passengers/blob/main/Misc/Titanic.png)
 # Titanic Survival Prediction 🚢
 
 This project was developed as part of the **Machine Learning** course. Our goal was to apply supervised learning techniques to predict which passengers survived the sinking of the Titanic, using the well-known dataset from [Kaggle](https://www.kaggle.com/competitions/titanic).
