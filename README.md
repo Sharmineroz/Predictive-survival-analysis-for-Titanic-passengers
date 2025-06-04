@@ -47,12 +47,13 @@ We used metrics such as *accuracy*, *precision*, *recall*, and *f1-score* to eva
 
 titanic-survival-prediction/
 │
-├── data/ # Original dataset (train.csv, test.csv)
+├── data/                 # Original dataset (train.csv, test.csv)
 ├── notebooks/
-│ └── EDA_Titanic.ipynb # Exploratory analysis and model training
-├── models/ # Trained models (optional)
-├── README.md # This file
-└── requirements.txt # Required libraries
+│   └── EDA_Titanic.ipynb # Exploratory analysis and model training
+├── models/               # Trained models (optional)
+├── README.md             # This file
+└── requirements.txt      # Required libraries
+
 
 ---
 📌 Contributors
