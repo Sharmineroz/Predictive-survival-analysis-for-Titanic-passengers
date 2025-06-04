@@ -44,7 +44,7 @@ We used metrics such as *accuracy*, *precision*, *recall*, and *f1-score* to eva
 ---
 
 ## 📁 Repository Structure
-
+```
 titanic-survival-prediction/
 │
 ├── data/                 # Original dataset (train.csv, test.csv)
@@ -54,6 +54,7 @@ titanic-survival-prediction/
 ├── README.md             # This file
 └── requirements.txt      # Required libraries
 
+```
 
 ---
 📌 Contributors
