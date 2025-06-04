@@ -1,40 +1,40 @@
-# Predicción de Supervivencia en el Titanic 🚢
+# Titanic Survival Prediction 🚢
 
-Este proyecto fue desarrollado como parte de la asignatura de **Aprendizaje Automático**. Nuestro objetivo fue aplicar técnicas de aprendizaje supervisado para predecir qué pasajeros sobrevivieron al hundimiento del Titanic, utilizando el famoso dataset de [Kaggle](https://www.kaggle.com/competitions/titanic).
+This project was developed as part of the **Machine Learning** course. Our goal was to apply supervised learning techniques to predict which passengers survived the sinking of the Titanic, using the well-known dataset from [Kaggle](https://www.kaggle.com/competitions/titanic).
 
-## 🔍 Objetivo
+## 🔍 Objective
 
-Desarrollar un modelo de clasificación que prediga si un pasajero sobrevivió, en función de variables como su edad, sexo, clase del boleto, entre otras características.
-
----
-
-## 🧪 Análisis Exploratorio de Datos (EDA)
-
-Se realizó un análisis detallado para entender mejor la distribución y relación entre variables:
-
-- Visualización de distribuciones (edad, tarifa, clase, etc.)
-- Análisis de valores faltantes
-- Impacto de variables categóricas (sexo, clase, embarque) en la supervivencia
-- Transformaciones de variables y creación de nuevas features como:
-  - Agrupación de títulos en los nombres
-  - Agrupación de edad en rangos
+Build a classification model to predict whether a passenger survived, based on features such as age, sex, ticket class, among others.
 
 ---
 
-## 🤖 Modelos Entrenados
+## 🧪 Exploratory Data Analysis (EDA)
 
-Se entrenaron y evaluaron varios modelos de clasificación:
+We conducted a thorough data analysis to better understand the distributions and relationships between features:
 
-- **Regresión Logística**
+- Distribution visualizations (age, fare, class, etc.)
+- Missing values analysis
+- Categorical variable impact (sex, class, embarked) on survival
+- Feature engineering, including:
+  - Grouping titles extracted from names
+  - Creating age bins
+
+---
+
+## 🤖 Trained Models
+
+Several classification models were trained and evaluated:
+
+- **Logistic Regression**
 - **K-Nearest Neighbors (KNN)**
 - **Random Forest**
 - **XGBoost**
 
-Se utilizaron métricas como *accuracy*, *precision*, *recall* y *f1-score* para evaluar el desempeño de los modelos. También se aplicó validación cruzada para obtener resultados más robustos.
+We used metrics such as *accuracy*, *precision*, *recall*, and *f1-score* to evaluate model performance. Cross-validation was applied for more robust evaluation.
 
 ---
 
-## 🧰 Herramientas y Librerías
+## 🧰 Tools and Libraries
 
 - Python 3
 - Pandas, NumPy, Matplotlib, Seaborn
@@ -43,49 +43,24 @@ Se utilizaron métricas como *accuracy*, *precision*, *recall* y *f1-score* para
 
 ---
 
-## 📁 Estructura del Repositorio
+## 📁 Repository Structure
 
-```
 titanic-survival-prediction/
-�?├── data/                 # Dataset original (train.csv, test.csv)
+│
+├── data/ # Original dataset (train.csv, test.csv)
 ├── notebooks/
-�?  └── EDA_Titanic.ipynb # Análisis exploratorio y entrenamiento de modelos
-├── models/               # Modelos entrenados (opcional)
-├── README.md             # Este archivo
-└── requirements.txt      # Librerías necesarias
-```
+│ └── EDA_Titanic.ipynb # Exploratory analysis and model training
+├── models/ # Trained models (optional)
+├── README.md # This file
+└── requirements.txt # Required libraries
 
 ---
-
-## 🚀 Cómo Ejecutar el Proyecto
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/titanic-survival-prediction.git
-   cd titanic-survival-prediction
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Ejecuta el notebook:
-   ```bash
-   jupyter notebook notebooks/EDA_Titanic.ipynb
-   ```
-
----
-
-## 📌 Contribuyentes
-
+📌 Contributors
 - Valentina Isaza
-- Juan Jos�� Bonilla
-- Nelcy Luc��a Zapata
-- Ricardo Mu?oz
+- Juan José Bonilla
+- Nelcy Lucía Zapata
+- Ricardo Muñoz
 
----
 
-## 📜 Licencia
 
-Este proyecto se distribuye bajo la licencia MIT.
+
