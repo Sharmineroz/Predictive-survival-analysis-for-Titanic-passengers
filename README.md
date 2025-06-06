@@ -69,8 +69,8 @@ SHAP values were used to understand feature importance. Key findings:
 
 ```
 titanic-survival-prediction/
-├── data/                   # Titanic dataset
-├── notebooks/              # Jupyter notebooks (EDA and modeling)
+├── Data/                   # Titanic dataset
+├── Notebook/              # Jupyter notebook (EDA and modeling)
 ├── Misc/                   # Miscelaneus resources
 ├── Docs/                   # Documents giving in depth details of the project
 ├── README.md               # Project documentation
